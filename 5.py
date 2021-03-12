@@ -17,4 +17,4 @@ for i in range(len(str)):
     str_3.append(check)
 print(str_3)
 s = {str_3[i]:str[i] for i in range(len(str))}
-print(s['1'])
+print(s)
