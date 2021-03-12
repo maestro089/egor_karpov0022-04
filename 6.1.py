@@ -19,7 +19,7 @@ def fun2(str):
     return str_3
 
 def fun3(str_3,str):
-    s = {str_3[i]:str[i] for i in range(len(str))}
+    s = {str[i]:str_3[i] for i in range(len(str))}
     return s
     
     
