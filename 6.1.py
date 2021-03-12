@@ -30,7 +30,7 @@ str = fun()
 str_2 = set(str)
 print("список -",str)
 print("множество - ",str_2)
-print("количество символов в cgbcrt =",len(str))
+print("количество символов в списке =",len(str))
 print("заполните следующий список из",len(str),"символов")
 
 str_3 = fun2(str)
