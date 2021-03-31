@@ -1,7 +1,7 @@
-str = []
-str_3 = []
+mass_1 = []
+mass_3 = []
 
-def fun():
+def completion_mass_key():
     str = []
     while(True):
         check = input()
@@ -11,30 +11,30 @@ def fun():
             str.append(check)
     return str
 
-def fun2(str):
+def completion_mass_values(str):
     str_3 = []
     for i in range(len(str)):
         check = input()
         str_3.append(check)
     return str_3
 
-def fun3(str_3,str):
+def completion_list(str_3,str):
     s = {str[i]:str_3[i] for i in range(len(str))}
     return s
     
     
 
 print("Для выхода из цикла введите - quit")
-str = fun()
+mass_1 = completion_mass_key()
 
-str_2 = set(str)
-print("список -",str)
-print("множество - ",str_2)
-print("количество символов в списке =",len(str))
-print("заполните следующий список из",len(str),"символов")
+mass_2 = set(mass_1)
+print("список -",mass_1)
+print("множество - ",mass_2)
+print("количество символов в списке =",len(mass_1))
+print("заполните следующий список из",len(mass_1),"символов")
 
-str_3 = fun2(str)
+mass_3 = completion_mass_values(mass_1)
 
-print(str_3)
-s = fun3(str_3,str)
-print(s)
+print(mass_3)
+list = completion_list(mass_3,mass_1)
+print(list)
