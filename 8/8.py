@@ -1,4 +1,4 @@
-import math_fun as m
+from math_fun import m
 
 
 run = True
